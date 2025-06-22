@@ -2,6 +2,8 @@
 
 A simple PHP-based mailing system that delivers the latest public GitHub events to subscribed users **every 5 minutes**. Users verify their email before subscribing, and emails are sent using either **Sendmail** or **Gmail SMTP**. CRON jobs are used for automatic scheduling.
 
+Made for an assignment for RTCamp.
+
 ---
 
 ## 🚀 Features

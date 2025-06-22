@@ -17,8 +17,14 @@ A simple PHP-based mailing system that delivers the latest public GitHub events 
 
 ## 📁 Project Structure
 ├── index.php # Subscription form & verification logic
+
 ├── functions.php # Core helper functions (email, timeline fetch, code gen)
+
 ├── unsubscribe.php # Unsubscribe endpoint
+
 ├── cron.php # Script triggered by CRON to send GitHub timeline emails
+
 ├── setup_cron.php # Script to help set up CRON job scheduling
+
 ├── requirement.txt # Stores verified email addresses (acts as file-based DB)
+
